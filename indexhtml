@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trocar Cor do Carro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Personalize Seu Carro</h1>
+            <p>Escolha entre as cores Azul e Vermelho</p>
+        </header>
+
+        <div class="carro">
+            <!-- Imagens do carro -->
+            <img id="carroAzul" src="carro-azul.png" alt="Carro Azul" class="carro-imagem">
+            <img id="carroVermelho" src="carro-vermelho.png" alt="Carro Vermelho" class="carro-imagem">
+        </div>
+
+        <div class="controle">
+            <button onclick="trocarCor('azul')" class="botao azul">Azul</button>
+            <button onclick="trocarCor('vermelho')" class="botao vermelho">Vermelho</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Personalize Seu Carro. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
